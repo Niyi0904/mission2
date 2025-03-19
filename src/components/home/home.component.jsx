@@ -13,7 +13,7 @@ import Navbar from "../navbar/navbar.component";
 
 const Home = () =>  {
   return (
-<div className="home h-[96.5vh] bg-[url('asses1.jpg')]" >
+<div className="h-[96.5vh] bg-[url('/public/images/image-1.jpg')] bg-cover bg-no-repeat bg-center" >
     <Navbar/>
     <HeroSection/>
 </div>

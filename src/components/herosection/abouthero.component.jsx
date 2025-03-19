@@ -17,16 +17,16 @@ import { Links, Link } from "react-router-dom";
 
 const AboutHero = ({bg}) =>  {
   return (
-<div className="hero relative text-sm font-bold text-black min-h-[70%]">
+<div className="relative text-sm font-bold text-black min-h-[70%]">
     <div className="relative w-full">
         <div className="mx-[12%]">
             <div className="flex py-9 cursor-pointer">
-                <div className="home relative bottom-5 w-12 h-12 flex items-center justify-center rounded-full ">
+                <div className="relative bottom-5 w-12 h-12 flex items-center justify-center rounded-full ">
                 </div>
             </div>
 
             <div className="flex gap-10 pb-[70px] cursor-pointer">
-                <Link to='/'>
+                    <Link to='/'>
                                 <button>HOME</button>
                             </Link>
                 
@@ -67,7 +67,7 @@ const AboutHero = ({bg}) =>  {
         
 
         <div>
-            <div style={{backgroundColor: `${bg}`}} className="flex home relative w-[100%] h-96 bg-red-600 justify-center space-x-32 items-center">
+            <div className="flex relative w-[100%] h-96 justify-center bg-[url('/public/images/image-8.jpg')] bg-cover bg-center space-x-32 items-center">
                 <h1 className="text-6xl font-bold text-white">ABOUT US</h1>
             </div>
         </div>

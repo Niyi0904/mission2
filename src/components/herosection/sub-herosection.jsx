@@ -12,7 +12,7 @@ import { Link } from "react-scroll";
 
 const SubHeroSection = () =>  {
   return (
-<div className="relative mt-32 hero2 text-sm font-bold text-white h-[600px] flex justify-center mx-[14.4%]"></div>
+<div className="relative mt-32 bg-[url('/public/images/image-7.jpg')] bg-cover bg-no-repeat bg-center text-sm font-bold text-white h-[600px] flex justify-center mx-[14.4%]"></div>
 
 )}
 

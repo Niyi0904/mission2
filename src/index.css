@@ -26,7 +26,7 @@ code {
   position: relative;
   top: 0;
   bottom: 0; */
-  background-image: url('/src/asses1.jpg');
+  background-image: url('/public/images/image-1.jpg');
   background-position: center;
   background-blend-mode: darken;
   background-size: cover;

@@ -7,11 +7,12 @@ import Live from "../../components/live/live";
 import Contact from "../../components/contact/contact";
 import Footer from "../../components/footer/footer";
 import Home2 from "../../components/home/home2.component";
+import AboutSubHeroSection from "../../sub-herosections/about-sub-herosection.components";
 
 const AboutUsPage = () => (
   <div className="h-full">
     <Home2/>
-    <SubHeroSection/>
+    <AboutSubHeroSection/>
     <AboutUs/>
     <OurMission/>
     <Donate/>

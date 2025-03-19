@@ -18,7 +18,7 @@ const OurMission = () =>  {
 
         <div className="mt-7 px-4 py-4">
             <div className="flex space-x-20">
-                <div className="relative w-[57%] hero2 h-[350px]"></div>
+                <div className="relative w-[57%] bg-[url('/public/images/image-4.jpg')] bg-center bg-cover h-[350px]"></div>
 
                 <div className="relative w-[50%]">
                     <p className="font-[Sans-serif] text-lg mb-7 text-[#443535]">We are actively involved in sending individuals and groups,  across boundaries, most commonly geographical boundaries, to carry on evangelism or other activities, such as educational or hospital work.</p>
@@ -34,7 +34,7 @@ const OurMission = () =>  {
 
         <div className="mt-1 px-4 py-2">
             <div className="flex space-x-20">
-                <div className="relative w-[57%] hero2 h-[350px]"></div>
+                <div className="relative w-[57%] bg-[url('/public/images/image-5.jpg')] bg-center bg-cover h-[350px]"></div>
 
                 <div className="relative w-[50%]">
                     <p className="font-[Sans-serif] text-lg mb-7 text-[#443535]">The Men of Issachar Vision Focuses on reawakening the church to her responsibilities by developing strategies which include;</p>

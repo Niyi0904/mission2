@@ -16,7 +16,7 @@ const Home2 = () =>  {
   return (
 <div className="h-[96.5vh]" >
     <Navbar bg='black'/>
-    <AboutHero/>
+    <AboutHero bg='/src/assets/images/image-.jpg'/>
 </div>
 
 )}
